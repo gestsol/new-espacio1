@@ -1,6 +1,6 @@
 body {
     font-family: sans-serif !important;
-    overflow: hidden;
+    overflow: scroll;
     background: #F2F1F6;
 }
 label, h5{
@@ -138,4 +138,5 @@ a:hover{
 .lineas{
     position: fixed;
     bottom: -5px;
+    z-index: 2;
 }
