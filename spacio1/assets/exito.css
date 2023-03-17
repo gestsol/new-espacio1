@@ -3,14 +3,15 @@ body {
     overflow: scroll;
     background: #F2F1F6;
 }
-
-
 label, h5{
     color: #C2D500;
 }
 
 h5{
-    font-family: sans-serif !important;;
+    font-family: sans-serif !important;
+}
+h1{
+    font-family: sans-serif !important;
 }
 
 button{
@@ -26,10 +27,49 @@ button{
     font-size: large;
     font-family: sans-serif !important;
 }
+#cursiva{
+    font-style: italic;
+    font-size: 0.7rem !important;
+}
+
+
+#rut{
+
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529 !important;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da !important;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0.375rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+#inicia_sesion{
+    color: #BBBCBE;
+    font-size: 1.4rem;
+    letter-spacing: 1.25pt;
+    font-family: SF Pro Rounded, Bold !important;
+    font-weight: bold;
+    padding-top: 10px;
+    
+}
+.inicio{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+
 a{
     text-decoration: none !important;
     color: #fff !important;
-    font-family: sans-serif !important;
 }
 
 a:hover{
@@ -81,20 +121,41 @@ a:hover{
     font-size: 1rem !important;
     font-weight: bold !important;
     padding: 12px !important;
-    font-family: sans-serif !important;
+    font-family: SF Pro Display, Heavy !important;
 }
 
 .form-label{
     letter-spacing: 1pt;
     font-family: sans-serif !important;
 }
-.spacio{
-    margin-top: 48px;
-    
+
+.fondo{
+    position: absolute;
+    z-index: -1;
+    width: auto;
 }
 
+.registro{
+    text-decoration: underline;
+}
+
+.spacio{
+    margin-top: 48px;
+}
+
+.lineas{
+    bottom: -5px;
+
+}
 #recupere{
     font-family: sans-serif !important;
 }
 
+.disp{
+    margin-top: 30px;
+    margin-bottom: 10%;
+}
 
+.nave{
+    margin-top: 80px;
+}
