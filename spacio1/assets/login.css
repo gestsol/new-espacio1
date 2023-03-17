@@ -25,6 +25,7 @@ button{
     border: none;
     border-radius: 9px;
     font-size: large;
+    font-family: sans-serif !important;
 }
 #cursiva{
     font-style: italic;
@@ -61,8 +62,8 @@ button{
     
 }
 .inicio{
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
 
@@ -125,7 +126,7 @@ a:hover{
 
 .form-label{
     letter-spacing: 1pt;
-    font-family: SF Pro Rounded !important;
+    font-family: sans-serif !important;
 }
 
 .fondo{
@@ -145,4 +146,7 @@ a:hover{
 .lineas{
     bottom: -5px;
 
+}
+#recupere{
+    font-family: sans-serif !important;
 }
