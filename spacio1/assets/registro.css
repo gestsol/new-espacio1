@@ -97,4 +97,7 @@ a:hover{
     font-family: sans-serif !important;
 }
 
-
+.form-check{
+    margin-right: -5px;
+    margin-left: -15px;
+}
