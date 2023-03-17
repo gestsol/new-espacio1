@@ -10,7 +10,7 @@ label, h5{
 }
 
 h5{
-    font-family: SF Pro Rounded, Bold !important;
+    font-family: sans-serif !important;;
 }
 
 button{
@@ -24,10 +24,12 @@ button{
     border: none;
     border-radius: 9px;
     font-size: large;
+    font-family: sans-serif !important;
 }
 a{
     text-decoration: none !important;
     color: #fff !important;
+    font-family: sans-serif !important;
 }
 
 a:hover{
@@ -84,11 +86,15 @@ a:hover{
 
 .form-label{
     letter-spacing: 1pt;
-    font-family: SF Pro Rounded !important;
+    font-family: sans-serif !important;
 }
 .spacio{
     margin-top: 48px;
     
+}
+
+#recupere{
+    font-family: sans-serif !important;
 }
 
 
