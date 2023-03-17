@@ -52,7 +52,7 @@ button{
     color: #BBBCBE;
     font-size: 1.4rem;
     letter-spacing: 1.25pt;
-    font-family: SF Pro Rounded, Bold;
+    font-family: SF Pro Rounded, Bold !important;
     font-weight: bold;
     padding-top: 10px;
     
